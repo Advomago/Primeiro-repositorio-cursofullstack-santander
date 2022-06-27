@@ -1,0 +1,9 @@
+Github e git tem funções diferentes.
+Github é para versionamento de códigos com armazenamento em nuvem
+Git é um sistema para controlar as versões do arquivo, ou seja, quando o usuário altera alguma informação no arquivo por exemplo
+
+Alguns comandos que é importante lembrar:
+
+git add . ou -A, para adicionar um arquivo na área de staging
+git commit -m "Aqui coloca o comentario", para salvar e confirmar alterações na sua máquina
+git push origin main, enviar todos os commits para a plataforma do github, ou nuvem.
