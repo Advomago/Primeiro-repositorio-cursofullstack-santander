@@ -1,0 +1,9 @@
+Tags para ser lembradas
+<a></a> serve para hyperlinks apontando para href
+target="_blank" para abrir em uma nova guia
+<img src="" alt=""> Para inserir a imagem que deseja. Alt para inserir uma descrição caso a imagem não seja carregada
+<ol> </ol> Lista ordenada
+<ul> </ul> Para listas não ordenadas
+<li> </li> Para numerar ou marcadores dentro das duas listas acima
+<footer> </footer> cabeçalho da página
+
