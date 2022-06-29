@@ -1,0 +1,122 @@
+body{
+    background: #f7f7f7;
+    font-family: Consolas;
+    max-width: 900px;
+    margin: auto;
+}
+.photo{
+    border: 1px solid #505050;
+    border-radius: 50px;
+}
+
+.post{
+    background: #fff;
+    padding: 10px;
+    border: 3px solid #505050;
+    margin: 0;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+#title, .subtitle, .post_title{
+    color: #505050;
+}
+
+#title{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: line-through;
+    color: #505050;
+}
+
+.post_title{
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.post_content{
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    text-align: justify;
+}
+.post_image{
+    margin: 0;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.social_media{
+    list-style-type: none;
+    padding-left: 15px;
+
+}
+.social_media li a{
+    text-decoration: underline;
+    color: blue;
+}
+.flex{
+    max-width: 300px;
+    padding: 10px;
+    border: 2px solid black;
+    display: flex;
+}
+
+.item{
+    background-color: aqua;
+    margin: 5px;
+}
+
+.flex-container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+.flex-item{
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    font-size: 16;
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+
+.row{
+    flex-direction: row;
+
+}
+
+.row-reverse{
+    flex-direction: row-reverse;
+}
+
+.row-reverse li{
+    background: red;
+}
+
+.column{
+    float: left;
+    flex-direction: column;
+}
+
+.column li{
+    background: orange;
+}
+
+.column-reverse{
+    float: right;
+    flex-direction: column-reverse;
+}
+
+.column-reverse li{
+    background-color: purple;
+}
