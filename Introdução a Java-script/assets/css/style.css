@@ -1,0 +1,30 @@
+body{
+    color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 32px;
+}
+
+body span{
+    padding: 10px;
+    font-size: 32px;
+    color: black;
+
+}
+body p{
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+body button{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: grey;
+    font-weight: 600;
+}
